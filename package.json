@@ -1,0 +1,31 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs-pro-server-api": "^0.1.7",
+    "@nativescript/fingerprint-auth": "^8.0.0",
+    "browser_fingerprint": "^2.0.3",
+    "captcha-verifer": "^1.0.2",
+    "download": "^8.0.0",
+    "electron-fingerprints": "^1.1.1",
+    "express-fingerprint": "^1.2.2",
+    "fingerprint": "0.0.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "inject-fingerprint": "^1.1.2",
+    "jimp": "^0.16.1",
+    "node-device-detector": "^1.3.11",
+    "nodemon": "^2.0.14",
+    "qrcode-reader": "^1.0.4",
+    "simple-recaptcha-new": "^1.1.1",
+    "stylus": "^0.55.0"
+  }
+}
